@@ -1,0 +1,6 @@
+{
+  "diff_rmse_ridge_minus_rf": -0.3855337551842455,
+  "diff_ipw_value_ridge_minus_rf": -758.8637324532798,
+  "tolerance_value": 0.04258065501309465,
+  "winner_by_ipw": "ridge"
+}

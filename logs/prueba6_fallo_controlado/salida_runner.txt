@@ -1,0 +1,10 @@
+returncode=1
+--- stdout
+[10:13:34] >>> inputs
+    OK
+[10:13:35] >>> derive
+    OK
+[10:13:37] >>> synthetic
+
+--- stderr
+    FALLO etapa=synthetic rc=1 (ver logs/synthetic.log); ejecución detenida

@@ -1,0 +1,9 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+scipy
+# solo para extraer texto de documentos (tools/extract_doc_text.py)
+pypdf
+python-docx
+python-pptx

@@ -1,0 +1,19 @@
+Merge completado.
+Archivo guardado en: outputs/b2/prueba_fallo/derivados/base_macro_fred_unida.csv
+[info] cargadas 421 filas, de 1990-01-01 a 2025-01-01
+[ok] escrito outputs/b2/prueba_fallo/derivados/base_macro_features.csv con shape (421, 46)
+[info] features disponibles: 36
+[info] muestra entrenable (loss_cum_lam100, sin NaN): 385 filas, 1992-01-01 -> 2024-01-01
+
+[preview] estadísticas de los targets:
+                    mean    std    min     max
+infl_m_sum_fwd12   2.584  1.517 -1.950   8.635
+infl_yoy_fwd12     2.623  1.566 -1.959   8.979
+unrate_avg_fwd12   5.736  1.611  3.542   9.767
+loss_cum_lam050    5.453  1.536  2.008  10.727
+loss_yoy_lam050    5.491  1.579  2.000  11.071
+loss_cum_lam100    8.321  1.928  4.910  13.014
+loss_yoy_lam100    8.359  1.957  4.905  13.331
+loss_cum_lam200   14.057  3.213  8.820  22.076
+loss_yoy_lam200   14.095  3.225  8.827  22.138
+{'base_macro_features_sha256': '2227b049961eab4af13ac0e39d6d1724efce348d0892ab2ca8ac21718e80aacf', 'igual_a_data_derived_B1': 'referencia B1 no disponible'}

@@ -1,0 +1,61 @@
+{
+  "_nota": "Parámetros congelados del bloque 2 (BLOQUE_2_Politica_Monetaria.md, secciones A-C). Fijados antes de ver resultados B2. No editar para cambiar un ganador.",
+  "inputs": {
+    "fred_dir": "data/raw",
+    "files": {
+      "CPIAUCSL.csv": "db15237a634ea925fcdea6218f7f40554fd3082032383c94d6e54df666a35218",
+      "FEDFUNDS.csv": "2b55d7747b0d59f8a12974e7bd10852f774bc345c0f70b7efdb5db0d99bd1a47",
+      "INDPRO.csv": "5b7b2645eb3f18e6f186a7b19cc60af7e17a1d4bc0c5e5f0c736baa879b26a24",
+      "UNRATE.csv": "1394045d0349814cf181b72c042baa0159a8c1fccb121f1d7d086975c34a124c"
+    },
+    "simulator_base": "src/simular_datos_v0_dr2.py",
+    "simulator_base_sha256": "29af6663bd03ef55416d56d7553ee3bbe4a846e4734c6c9bb50e3591ec1153ba",
+    "legacy_outputs_real": "legacy/D_final_2_interno/final/outputs_real"
+  },
+  "synthetic": {
+    "scenario": "S0_B2_exante",
+    "seeds": [42, 43, 44, 45, 46, 47, 48, 49, 50, 51],
+    "n_periods": 600,
+    "burn_in": 24,
+    "start_date": "1975-01-01",
+    "lambda_u": 1.0,
+    "mu_r": 2.0,
+    "noise_level": 1.0,
+    "inflation_target": 2.0,
+    "unemployment_target": 4.5,
+    "behavior_tau": 1.2,
+    "behavior_mix": 0.9,
+    "behavior_floor_total": 0.1,
+    "dev_frac": 0.8,
+    "gap": 1,
+    "cv_n_splits": 5,
+    "base_features": ["inflation", "unemployment", "fedfunds", "activity"]
+  },
+  "real": {
+    "first_origin": "1992-01-01",
+    "test_start": "2021-03-01",
+    "test_end": "2024-01-01",
+    "horizon": 12,
+    "lambda": 1.0,
+    "target_col": "loss_cum_lam100",
+    "variants": {"lag1": 1, "lag2": 2},
+    "main_variant": "lag1",
+    "series": ["infl_m", "infl_yoy", "unrate", "fedfunds", "indpro_g_yoy"],
+    "vol_series": ["infl_m", "unrate"],
+    "vol_window": 12,
+    "cv_n_splits": 5
+  },
+  "grid": {
+    "ridge_alpha": [0.01, 0.1, 1.0, 10.0, 100.0],
+    "rf_n_estimators": 300,
+    "rf_pairs": [[5, 5], [10, 5], [null, 20]],
+    "rf_random_state": 42,
+    "rf_n_jobs": 1,
+    "selection": "min RMSE agregado sobre todas las predicciones de los folds",
+    "tie_rel_tol": 1e-12,
+    "tie_order_ridge": "mayor alpha",
+    "tie_order_rf": "menor profundidad (None = infinita), luego mayor min_samples_leaf"
+  },
+  "decision_ties": {"abs": 1e-8, "rel": 1e-6, "order": ["T0", "T1", "T2"]},
+  "determinism": {"synthetic_seed": 42, "real_variant": "lag1", "atol_pred": 1e-12}
+}

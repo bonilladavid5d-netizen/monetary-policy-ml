@@ -1,0 +1,20 @@
+[10:12:39] >>> inputs
+    OK
+[10:12:41] >>> derive
+    OK
+[10:12:42] >>> synthetic
+    OK
+[10:13:07] >>> real
+    OK
+[10:13:14] >>> cortes
+    OK
+[10:13:15] >>> legacy_ipw
+    OK
+[10:13:16] >>> determinism
+    OK
+[10:13:19] >>> figures
+    OK
+[10:13:20] >>> tests
+    OK
+[10:13:38] >>> finalize
+    OK

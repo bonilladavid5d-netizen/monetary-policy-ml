@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/private/var/folders/_k/rtpxmhm143jc6tn1xpyfgdlh0000gn/T/b2_fallo_9kwrbw5i/src/b2_run.py", line 12, in <module>
+    stages.STAGES[stage](run, stages.load_config(run / "config_b2_usada.json"))
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/var/folders/_k/rtpxmhm143jc6tn1xpyfgdlh0000gn/T/b2_fallo_9kwrbw5i/src/b2/stages.py", line 38, in st_synthetic
+    from .synthetic import run_seed
+  File "/private/var/folders/_k/rtpxmhm143jc6tn1xpyfgdlh0000gn/T/b2_fallo_9kwrbw5i/src/b2/synthetic.py", line 199, in <module>
+    raise RuntimeError('falla inyectada por la prueba 6')
+RuntimeError: falla inyectada por la prueba 6

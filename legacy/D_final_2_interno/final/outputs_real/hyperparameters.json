@@ -1,0 +1,117 @@
+{
+  "ridge": {
+    "best_alpha": 100.0,
+    "cv_rmse_per_alpha": {
+      "0.01": 1.8114746741974699,
+      "0.1": 1.8983047614717972,
+      "1.0": 1.8668681067525505,
+      "10.0": 1.6395610193722618,
+      "100.0": 1.482829269460089
+    }
+  },
+  "rf": {
+    "best_params": {
+      "n_estimators": 300,
+      "max_depth": 5,
+      "min_samples_leaf": 5
+    },
+    "cv_results": [
+      {
+        "params": {
+          "n_estimators": 300,
+          "max_depth": 5,
+          "min_samples_leaf": 5
+        },
+        "cv_rmse": 1.4928710880304872
+      },
+      {
+        "params": {
+          "n_estimators": 300,
+          "max_depth": 10,
+          "min_samples_leaf": 5
+        },
+        "cv_rmse": 1.4978263127508522
+      },
+      {
+        "params": {
+          "n_estimators": 300,
+          "max_depth": null,
+          "min_samples_leaf": 5
+        },
+        "cv_rmse": 1.4981233196035777
+      },
+      {
+        "params": {
+          "n_estimators": 300,
+          "max_depth": 20,
+          "min_samples_leaf": 5
+        },
+        "cv_rmse": 1.4981233196035781
+      },
+      {
+        "params": {
+          "n_estimators": 300,
+          "max_depth": 5,
+          "min_samples_leaf": 1
+        },
+        "cv_rmse": 1.5021120321100632
+      },
+      {
+        "params": {
+          "n_estimators": 300,
+          "max_depth": 10,
+          "min_samples_leaf": 1
+        },
+        "cv_rmse": 1.5132855041828932
+      },
+      {
+        "params": {
+          "n_estimators": 300,
+          "max_depth": 20,
+          "min_samples_leaf": 1
+        },
+        "cv_rmse": 1.5185544830231934
+      },
+      {
+        "params": {
+          "n_estimators": 300,
+          "max_depth": null,
+          "min_samples_leaf": 1
+        },
+        "cv_rmse": 1.5187869550838
+      },
+      {
+        "params": {
+          "n_estimators": 300,
+          "max_depth": null,
+          "min_samples_leaf": 20
+        },
+        "cv_rmse": 1.5775217909224881
+      },
+      {
+        "params": {
+          "n_estimators": 300,
+          "max_depth": 5,
+          "min_samples_leaf": 20
+        },
+        "cv_rmse": 1.5775217909224886
+      },
+      {
+        "params": {
+          "n_estimators": 300,
+          "max_depth": 10,
+          "min_samples_leaf": 20
+        },
+        "cv_rmse": 1.5775217909224886
+      },
+      {
+        "params": {
+          "n_estimators": 300,
+          "max_depth": 20,
+          "min_samples_leaf": 20
+        },
+        "cv_rmse": 1.5775217909224886
+      }
+    ]
+  }
+}

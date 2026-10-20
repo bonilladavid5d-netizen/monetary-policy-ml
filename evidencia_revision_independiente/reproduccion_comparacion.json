@@ -1,0 +1,24 @@
+{
+  "run_id": "independent_20261020",
+  "exit_code": 0,
+  "status": {
+    "run_id": "independent_20261020",
+    "estado": "COMPLETA",
+    "pruebas": 8,
+    "pruebas_pass": 8
+  },
+  "changed_synthetic_decisions": {
+    "ridge": 0,
+    "rf": 0
+  },
+  "max_differences_from_delivered_run": {
+    "real_metricas.csv": {
+      "rmse": 0.026731311026644722,
+      "mae": 0.02751892079933338
+    },
+    "sintetico_por_semilla.csv": {
+      "regret_esperado_medio": 1.6653345369377348e-16,
+      "rmse_factual_test": 0.0031428958444259525
+    }
+  }
+}

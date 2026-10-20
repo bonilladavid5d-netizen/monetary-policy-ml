@@ -1,0 +1,17 @@
+variante       modelo                    bloque   n fecha_desde fecha_hasta   rmse    mae  mejora_rmse_vs_persistencia                                                 uso
+    lag1        media                      test  35  2021-03-01  2024-01-01 2.3331 1.9066                       0.2086                    evaluacion_historica_reutilizada
+    lag1 persistencia                      test  35  2021-03-01  2024-01-01 2.9482 2.2340                       0.0000                    evaluacion_historica_reutilizada
+    lag1        ridge                      test  35  2021-03-01  2024-01-01 2.2141 1.6161                       0.2490                    evaluacion_historica_reutilizada
+    lag1           rf                      test  35  2021-03-01  2024-01-01 3.3165 2.3615                      -0.1249                    evaluacion_historica_reutilizada
+    lag1        media folds_desarrollo_agregado 280  1996-11-01  2020-02-01 2.1134 1.8049                      -0.1371 diagnostico_seleccion (no evaluacion independiente)
+    lag1 persistencia folds_desarrollo_agregado 280  1996-11-01  2020-02-01 1.8586 1.4199                       0.0000 diagnostico_seleccion (no evaluacion independiente)
+    lag1        ridge folds_desarrollo_agregado 280  1996-11-01  2020-02-01 1.7045 1.4996                       0.0830 diagnostico_seleccion (no evaluacion independiente)
+    lag1           rf folds_desarrollo_agregado 280  1996-11-01  2020-02-01 1.6698 1.4097                       0.1016 diagnostico_seleccion (no evaluacion independiente)
+    lag2        media                      test  35  2021-03-01  2024-01-01 2.3362 1.9037                       0.2502                    evaluacion_historica_reutilizada
+    lag2 persistencia                      test  35  2021-03-01  2024-01-01 3.1156 2.4146                       0.0000                    evaluacion_historica_reutilizada
+    lag2        ridge                      test  35  2021-03-01  2024-01-01 2.0747 1.5930                       0.3341                    evaluacion_historica_reutilizada
+    lag2           rf                      test  35  2021-03-01  2024-01-01 3.3093 2.4424                      -0.0622                    evaluacion_historica_reutilizada
+    lag2        media folds_desarrollo_agregado 280  1996-10-01  2020-01-01 2.1157 1.8074                      -0.1536 diagnostico_seleccion (no evaluacion independiente)
+    lag2 persistencia folds_desarrollo_agregado 280  1996-10-01  2020-01-01 1.8339 1.4066                       0.0000 diagnostico_seleccion (no evaluacion independiente)
+    lag2        ridge folds_desarrollo_agregado 280  1996-10-01  2020-01-01 1.7111 1.5038                       0.0669 diagnostico_seleccion (no evaluacion independiente)
+    lag2           rf folds_desarrollo_agregado 280  1996-10-01  2020-01-01 1.7338 1.4813                       0.0546 diagnostico_seleccion (no evaluacion independiente)

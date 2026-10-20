@@ -1,0 +1,4 @@
+returncode=7
+[10:13:38] >>> falla :: sh -c exit 7
+    FAIL rc=7 (0 s) — ver /var/folders/_k/rtpxmhm143jc6tn1xpyfgdlh0000gn/T/tmp.lQd424uUID/falla.log; ejecución detenida
+

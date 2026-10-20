@@ -1,0 +1,8 @@
+# entornos, cachés y salidas locales de nuevas ejecuciones (run_bloque2.sh escribe en outputs/)
+.venv*/
+__pycache__/
+*.pyc
+.DS_Store
+outputs/
+*.zip
+.env

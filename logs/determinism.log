@@ -1,0 +1,9 @@
+     rama     id modelo  repeticion generador_identico  max_dif_pred decisiones_identicas   tolerancia  rmse_repetido  pass
+sintetico seed42  ridge           1               True  1.776357e-15                 True 1.000000e-12            NaN  True
+sintetico seed42  ridge           2               True  1.776357e-15                 True 1.000000e-12            NaN  True
+sintetico seed42     rf           1               True  1.776357e-15                 True 1.000000e-12            NaN  True
+sintetico seed42     rf           2               True  1.776357e-15                 True 1.000000e-12            NaN  True
+     real   lag1  ridge           1                NaN  1.776357e-15                  NaN 1.000000e-12       2.214130  True
+     real   lag1  ridge           2                NaN  1.776357e-15                  NaN 1.000000e-12       2.214130  True
+     real   lag1     rf           1                NaN  0.000000e+00                  NaN 1.000000e-12       3.316502  True
+     real   lag1     rf           2                NaN  0.000000e+00                  NaN 1.000000e-12       3.316502  True

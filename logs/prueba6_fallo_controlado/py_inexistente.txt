@@ -1,0 +1,4 @@
+returncode=127
+estado=sin_corrida_creada
+
+ERROR: el intérprete PY='/var/folders/_k/rtpxmhm143jc6tn1xpyfgdlh0000gn/T/b2_py_p6q67c5q/no_existe/python' no existe o no se ejecuta; no se crea la corrida

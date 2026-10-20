@@ -1,0 +1,101 @@
+{
+  "lag1": {
+    "variante": "lag1",
+    "L": 1,
+    "n_origenes_completos": 385,
+    "filas_descartadas_desde_1992": [
+      "2024-02-01",
+      "2024-03-01",
+      "2024-04-01",
+      "2024-05-01",
+      "2024-06-01",
+      "2024-07-01",
+      "2024-08-01",
+      "2024-09-01",
+      "2024-10-01",
+      "2024-11-01",
+      "2024-12-01",
+      "2025-01-01"
+    ],
+    "dev_desde": "1992-01-01",
+    "dev_hasta": "2020-02-01",
+    "n_dev": 338,
+    "test_desde": "2021-03-01",
+    "test_hasta": "2024-01-01",
+    "n_test": 35,
+    "limite_origen_train": "2020-02-01",
+    "features": [
+      "infl_m_t-1",
+      "infl_m_t-12",
+      "infl_yoy_t-1",
+      "infl_yoy_t-12",
+      "unrate_t-1",
+      "unrate_t-12",
+      "fedfunds_t-1",
+      "fedfunds_t-12",
+      "indpro_g_yoy_t-1",
+      "indpro_g_yoy_t-12",
+      "infl_m_std12_t-1",
+      "unrate_std12_t-1"
+    ],
+    "hiperparametros": {
+      "ridge": {
+        "alpha": 100.0
+      },
+      "rf": {
+        "max_depth": 5,
+        "min_samples_leaf": 5
+      }
+    }
+  },
+  "lag2": {
+    "variante": "lag2",
+    "L": 2,
+    "n_origenes_completos": 384,
+    "filas_descartadas_desde_1992": [
+      "1992-01-01",
+      "2024-02-01",
+      "2024-03-01",
+      "2024-04-01",
+      "2024-05-01",
+      "2024-06-01",
+      "2024-07-01",
+      "2024-08-01",
+      "2024-09-01",
+      "2024-10-01",
+      "2024-11-01",
+      "2024-12-01",
+      "2025-01-01"
+    ],
+    "dev_desde": "1992-02-01",
+    "dev_hasta": "2020-01-01",
+    "n_dev": 336,
+    "test_desde": "2021-03-01",
+    "test_hasta": "2024-01-01",
+    "n_test": 35,
+    "limite_origen_train": "2020-01-01",
+    "features": [
+      "infl_m_t-2",
+      "infl_m_t-13",
+      "infl_yoy_t-2",
+      "infl_yoy_t-13",
+      "unrate_t-2",
+      "unrate_t-13",
+      "fedfunds_t-2",
+      "fedfunds_t-13",
+      "indpro_g_yoy_t-2",
+      "indpro_g_yoy_t-13",
+      "infl_m_std12_t-2",
+      "unrate_std12_t-2"
+    ],
+    "hiperparametros": {
+      "ridge": {
+        "alpha": 100.0
+      },
+      "rf": {
+        "max_depth": 10,
+        "min_samples_leaf": 5
+      }
+    }
+  }
+}

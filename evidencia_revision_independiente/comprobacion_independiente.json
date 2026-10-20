@@ -1,0 +1,109 @@
+{
+  "manifest": {
+    "entries": 103,
+    "matching": 103
+  },
+  "real_target_max_abs_diff": 3.552713678800501e-15,
+  "real_metrics_max_abs_diff": 8.881784197001252e-16,
+  "real_test_metrics": [
+    {
+      "variante": "lag1",
+      "modelo": "media",
+      "n": 35,
+      "rmse": 2.333069210692236,
+      "mae": 1.9066283043653616
+    },
+    {
+      "variante": "lag1",
+      "modelo": "persistencia",
+      "n": 35,
+      "rmse": 2.948196828032915,
+      "mae": 2.234010764456681
+    },
+    {
+      "variante": "lag1",
+      "modelo": "ridge",
+      "n": 35,
+      "rmse": 2.214129600545858,
+      "mae": 1.61613921090009
+    },
+    {
+      "variante": "lag1",
+      "modelo": "rf",
+      "n": 35,
+      "rmse": 3.3165022071112107,
+      "mae": 2.3614527582456497
+    },
+    {
+      "variante": "lag2",
+      "modelo": "media",
+      "n": 35,
+      "rmse": 2.3361516177136705,
+      "mae": 1.9037301100303827
+    },
+    {
+      "variante": "lag2",
+      "modelo": "persistencia",
+      "n": 35,
+      "rmse": 3.11561852938261,
+      "mae": 2.414578382834227
+    },
+    {
+      "variante": "lag2",
+      "modelo": "ridge",
+      "n": 35,
+      "rmse": 2.0747015720560653,
+      "mae": 1.5929756426704715
+    },
+    {
+      "variante": "lag2",
+      "modelo": "rf",
+      "n": 35,
+      "rmse": 3.309285662460281,
+      "mae": 2.4424074475362723
+    }
+  ],
+  "synthetic_q_max_abs_diff": 4.263256414560601e-14,
+  "synthetic_metrics_max_abs_diff": 1.7763568394002505e-15,
+  "synthetic_averages": {
+    "oraculo_exante": {
+      "regret": 0.0,
+      "loss": 7.1645261487434215
+    },
+    "rf": {
+      "regret": 0.11924416702075438,
+      "loss": 7.283770315764175
+    },
+    "ridge": {
+      "regret": 1.5510768399079908,
+      "loss": 8.715602988651412
+    },
+    "siempre_T0": {
+      "regret": 0.35122389349872113,
+      "loss": 7.515750042242141
+    },
+    "siempre_T1": {
+      "regret": 0.8136567244042487,
+      "loss": 7.978182873147669
+    },
+    "siempre_T2": {
+      "regret": 0.9758543044163964,
+      "loss": 8.140380453159818
+    }
+  },
+  "rf_vs_T0": {
+    "regret_reduction": 0.6604895930259694,
+    "total_loss_reduction": 0.030865811818398425
+  },
+  "rf_ties": {
+    "count": 187,
+    "flat": 93,
+    "resolved_T0": 187
+  },
+  "synthetic_tuning_boundary": {
+    "last_dev_index": 479,
+    "last_dev_label_time": 480,
+    "test_first": 480,
+    "interpretation": "Asimetría de la purga conservadora, no observación del choque futuro de la decisión480."
+  }
+}

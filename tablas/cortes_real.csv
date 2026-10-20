@@ -1,0 +1,29 @@
+rama,id,fold,modelo,hiperparametros,rmse_seleccion,n_eval,train_desde,train_hasta,eval_desde,eval_hasta,ultima_etiqueta_train,n_train
+real,lag1,agregado,ridge,"{""alpha"": 100.0}",1.704457887821061,280,,,,,,
+real,lag1,agregado,ridge,"{""alpha"": 10.0}",1.729027909567122,280,,,,,,
+real,lag1,agregado,ridge,"{""alpha"": 1.0}",1.8190517618629527,280,,,,,,
+real,lag1,agregado,ridge,"{""alpha"": 0.1}",1.8938285560979768,280,,,,,,
+real,lag1,agregado,ridge,"{""alpha"": 0.01}",1.9152611072546835,280,,,,,,
+real,lag1,agregado,rf,"{""max_depth"": 5, ""min_samples_leaf"": 5}",1.6697867545841598,280,,,,,,
+real,lag1,agregado,rf,"{""max_depth"": 10, ""min_samples_leaf"": 5}",1.670531559265028,280,,,,,,
+real,lag1,agregado,rf,"{""max_depth"": null, ""min_samples_leaf"": 20}",1.8535158667833835,280,,,,,,
+real,lag1,1,ridge|rf|media|persistencia,"{""ridge"": {""alpha"": 100.0}, ""rf"": {""max_depth"": 5, ""min_samples_leaf"": 5}}",,56,1992-01-01,1995-10-01,1996-11-01,2001-06-01,1996-10-01,46.0
+real,lag1,2,ridge|rf|media|persistencia,"{""ridge"": {""alpha"": 100.0}, ""rf"": {""max_depth"": 5, ""min_samples_leaf"": 5}}",,56,1992-01-01,2000-06-01,2001-07-01,2006-02-01,2001-06-01,102.0
+real,lag1,3,ridge|rf|media|persistencia,"{""ridge"": {""alpha"": 100.0}, ""rf"": {""max_depth"": 5, ""min_samples_leaf"": 5}}",,56,1992-01-01,2005-02-01,2006-03-01,2010-10-01,2006-02-01,158.0
+real,lag1,4,ridge|rf|media|persistencia,"{""ridge"": {""alpha"": 100.0}, ""rf"": {""max_depth"": 5, ""min_samples_leaf"": 5}}",,56,1992-01-01,2009-10-01,2010-11-01,2015-06-01,2010-10-01,214.0
+real,lag1,5,ridge|rf|media|persistencia,"{""ridge"": {""alpha"": 100.0}, ""rf"": {""max_depth"": 5, ""min_samples_leaf"": 5}}",,56,1992-01-01,2014-06-01,2015-07-01,2020-02-01,2015-06-01,270.0
+real,lag1,final_test,ridge|rf|media|persistencia,"{""ridge"": {""alpha"": 100.0}, ""rf"": {""max_depth"": 5, ""min_samples_leaf"": 5}}",,35,1992-01-01,2020-02-01,2021-03-01,2024-01-01,2021-02-01,338.0
+real,lag2,agregado,ridge,"{""alpha"": 100.0}",1.7111471470158817,280,,,,,,
+real,lag2,agregado,ridge,"{""alpha"": 10.0}",1.7149829421258431,280,,,,,,
+real,lag2,agregado,ridge,"{""alpha"": 1.0}",1.7807419188791993,280,,,,,,
+real,lag2,agregado,ridge,"{""alpha"": 0.1}",1.8387661412661243,280,,,,,,
+real,lag2,agregado,ridge,"{""alpha"": 0.01}",1.8544391230273902,280,,,,,,
+real,lag2,agregado,rf,"{""max_depth"": 5, ""min_samples_leaf"": 5}",1.7356897026441978,280,,,,,,
+real,lag2,agregado,rf,"{""max_depth"": 10, ""min_samples_leaf"": 5}",1.7337799451723819,280,,,,,,
+real,lag2,agregado,rf,"{""max_depth"": null, ""min_samples_leaf"": 20}",1.8651065505439697,280,,,,,,
+real,lag2,1,ridge|rf|media|persistencia,"{""ridge"": {""alpha"": 100.0}, ""rf"": {""max_depth"": 10, ""min_samples_leaf"": 5}}",,56,1992-02-01,1995-08-01,1996-10-01,2001-05-01,1996-08-01,43.0
+real,lag2,2,ridge|rf|media|persistencia,"{""ridge"": {""alpha"": 100.0}, ""rf"": {""max_depth"": 10, ""min_samples_leaf"": 5}}",,56,1992-02-01,2000-04-01,2001-06-01,2006-01-01,2001-04-01,99.0
+real,lag2,3,ridge|rf|media|persistencia,"{""ridge"": {""alpha"": 100.0}, ""rf"": {""max_depth"": 10, ""min_samples_leaf"": 5}}",,56,1992-02-01,2004-12-01,2006-02-01,2010-09-01,2005-12-01,155.0
+real,lag2,4,ridge|rf|media|persistencia,"{""ridge"": {""alpha"": 100.0}, ""rf"": {""max_depth"": 10, ""min_samples_leaf"": 5}}",,56,1992-02-01,2009-08-01,2010-10-01,2015-05-01,2010-08-01,211.0
+real,lag2,5,ridge|rf|media|persistencia,"{""ridge"": {""alpha"": 100.0}, ""rf"": {""max_depth"": 10, ""min_samples_leaf"": 5}}",,56,1992-02-01,2014-04-01,2015-06-01,2020-01-01,2015-04-01,267.0
+real,lag2,final_test,ridge|rf|media|persistencia,"{""ridge"": {""alpha"": 100.0}, ""rf"": {""max_depth"": 10, ""min_samples_leaf"": 5}}",,35,1992-02-01,2020-01-01,2021-03-01,2024-01-01,2021-01-01,336.0
